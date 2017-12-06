@@ -1,0 +1,42 @@
+---
+layout: default
+---
+
+<div class="post">
+  <h1 class="post-title">{{ page.title }}</h1>
+
+  <span class="post-date"><i class="fa fa-clock-o"></i> &emsp; {{ page.date | date_to_string }} &emsp;&emsp;&emsp; 
+  
+  <i class="fa fa-tags"></i> 
+  {% for tag in page.tags %}
+    {% capture tag_name %}{{ tag }}{% endcapture %}
+    <a href="/tag/{{ tag_name }}"><code class="tag"><nobr>{{ tag_name }}</nobr></code></a>
+  {% endfor %}
+  &emsp;&emsp;&emsp; 
+  
+  <i class="fa fa-sitemap"></i>
+  {% for category in page.categories %}
+    {% capture category_name %}{{ category }}{% endcapture %}
+    <a href="/category/{{ category_name }}"><code class="tag"><nobr>{{ category_name }}</nobr></code></a>
+  {% endfor %}
+  
+  
+  </span>
+  {{ content }}
+</div>
+
+<div class="related">
+  <h2>Related Posts</h2>
+  <ul class="related-posts">
+    {% for post in site.related_posts limit:3 %}
+      <li>
+        <h4>
+          <small>＿ </small><a href="{{ post.url }}">
+            {{ post.title }}
+            <small>{{ post.date | date_to_string }}</small>
+          </a>
+        </h4>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
