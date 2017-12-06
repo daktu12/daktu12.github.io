@@ -5,8 +5,8 @@ highlighter:      rouge
 permalink:        pretty
 
 # Setup
-title:            Marla's repository
-tagline:          'Marla Na'
+title:            Marla's blog
+tagline:          ''
 description:      'My blog'
 url:              https://daktu12.github.io
 baseurl:          
