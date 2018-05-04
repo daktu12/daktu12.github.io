@@ -136,7 +136,7 @@ ul {
 
 a.nav__link:hover,
 a.nav__link:focus {
-  text-decoration: none;  
+  text-decoration: none;
   color: #ea8023;
       -moz-transition: all .2s ease-in;
       /* WebKit */
@@ -181,7 +181,7 @@ a.nav__link:focus {
     color: #f1f1f1;
 }
 
-/* Position and style the close button (top right corner) 
+/* Position and style the close button (top right corner)
 .sidenavR .closebtn {
     position: absolute;
     top: 0;
@@ -206,7 +206,7 @@ a.nav__link:focus {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url('/img/i_4.jpg');
+    background-image: url('/img/test.jpg');
     min-height: 100%;
 	margin: 0;
 	padding: -2rem -1rem;
@@ -297,7 +297,7 @@ a.nav__link:focus {
 	-webkit-transform: translateX(20px);
 	-moz-transform: translateX(20px);
 	transform: translateX(20px);
-	
+
 }*/
 .sidebar-nav a::before {
 	margin-right: 10px;
@@ -331,7 +331,7 @@ a.sidebar-nav-item:hover,
 a.sidebar-nav-item:focus,
 a.sidebar-nav-subitem:hover,
 a.sidebar-nav-subitem:focus {
-  text-decoration: none;  
+  text-decoration: none;
   color: #ea8023;
       -moz-transition: all .1s ease-in;
       /* WebKit */
@@ -356,7 +356,7 @@ a.sidebar-nav-subitem:focus {
 
 .sidebar-icons {
 		text-align: center;
-		width: 100%; 
+		width: 100%;
 		font-size: 100%;
 	}
 
@@ -374,7 +374,7 @@ a.sidebar-nav-subitem:focus {
      -o-transition: all .3s ease-in-out;
      /* Standard */
      transition: all .3s ease-in-out;
- 
+
 }
 
 /* Sticky sidebar
@@ -498,7 +498,7 @@ a.sidebar-nav-subitem:focus {
 .videoFrame {
 	width: 100%;
 	left: 0;
-	padding: 10px 20px; 
+	padding: 10px 20px;
 	background-color: #0c1e21;
 	text-align: center;
 }
@@ -519,7 +519,7 @@ a.sidebar-nav-subitem:focus {
 	width: 100%;
 	left: 0;
 	border-radius: 30px;
-	padding: 10px 20px; 
+	padding: 10px 20px;
 	background-color: #0c1e21;
 }
 
