@@ -21,7 +21,7 @@ GEM
       jekyll (~> 3.3)
     jekyll-lunr-js-search (3.3.0)
       json (~> 2.0)
-      nokogiri (~> 1.7)
+      nokogiri ~> 1.8.2
       therubyracer (~> 0.12)
     jekyll-paginate (1.1.0)
     jekyll-sass-converter (1.5.0)
