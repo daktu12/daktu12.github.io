@@ -50,8 +50,7 @@ let earthNode = self.createObject(radius: 0.04, materialName: "earth.jpg", posit
 earthMoonSystem.addChildNode(earthNode)
 self.rotateObject(node: earthNode, duration: rotation_speeds[0], from: SCNVector4Make(0, 1, 0, 0), to: SCNVector4Make(0, 1, 0, Float(Double.pi) * 2.0), key: "earth_own_rotation")   
 ```
-![2]({{ site.baseurl}}/img/s_2.png)
-![3]({{ site.baseurl}}/img/s_3.png)
+![2]({{ site.baseurl}}/img/test.jpeg)![3]({{ site.baseurl}}/img/test2.jpg)
 
 ---
 
